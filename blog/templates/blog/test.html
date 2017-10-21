@@ -7,146 +7,19 @@
 		Author: Terry Glinsey
 		Date: October 8th
 	-->
-    <script src="modernizr-2.js"></script>
+    <script src="{% static 'js/modernizer-2.js' %}"></script>
     <title>Ink Wash Gallery</title>
-    <link rel="stylesheet" href="{% static 'css/navfooter.css' %}">
-    <style type="text/css">
-        @import url(navfooter.css);
-        * {
-            padding: 0;
-            margin: 0;
-        }
-
-        body {
-            font-size: 1.1em;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: white;
-        }
-
-        #container {
-            width: 930px;
-            border-width: 1px;
-            margin: 0 auto;
-            background-color: white;
-        }
-
-        header {
-            width: 910px;
-            /*Reduced by 20 px to accomadate shadow */
-            margin-bottom: 30px;
-            margin-top: 10px;
-            text-align: center;
-            border: 1px solid #888888;
-            box-shadow: 15px 15px 5px 0 #888888;
-            border-radius: 25px;
-        }
-
-        nav {
-            width: 200px;
-            margin: 0 5px 0 5px;
-            padding: 25px 10px 0 10px;
-            float: left;
-            text-align: center;
-        }
-
-        nav ul {
-            font-weight: bold;
-            list-style: none;
-        }
-
-        nav ul li a {
-            font-weight: bold;
-            list-style: none;
-        }
-
-        nav ul li a:hover {
-            background: gray;
-            border-radius: 10px;
-            color: white;
-        }
-
-        #main {
-            width: 446px;
-            padding: 10px;
-            float: left;
-            color: black;
-            border-left: 2px solid;
-            border-right: 2px solid;
-            background-image: url(images/ricepaper.jpg);
-        }
-
-        #main p {
-            text-indent: 1.5em;
-        }
-
-        figure {
-            padding-top: 10px;
-            text-align: center;
-
-        }
-
-        figcaption {
-            font-style: italic;
-        }
-
-        aside {
-            width: 200px;
-            margin: 0 5px 0 5px;
-            padding: 10px;
-            float: right;
-        }
-
-        aside p {
-            font-style: italic;
-            font-size: 0.9em;
-        }
-
-        h2 {
-            font-size: 1.4em;
-            text-align: center;
-            padding-bottom: 0.5em;
-
-        }
-
-        h3 {
-            text-align: center;
-            padding-bottom: 0.5em;
-            padding-top: 0.5em;
-        }
-
-        footer {
-            width: 910px;
-            margin: 0;
-            padding: 10px;
-            background-color: gray;
-            clear: both;
-            color: wheat;
-            font-weight: bold;
-            text-align: center;
-            border-bottom-left-radius: 25px;
-            border-bottom-right-radius: 25px;
-        }
-
-        #wrapper {
-            width: 930px;
-            margin-bottom: 10px;
-            border: 2px solid;
-            border-radius: 27px;
-        }
-    </style>
+    <link rel="stylesheet" href="{% static 'css/test.css' %}">
+   
 
 </head>
 
 <body>
     <div id="container">
         <header>
-            <img src="images/inkwashgallery.jpg" alt="Ink and Wash painting" />
+            <img src= {% static 'images/inkwashgallery.jpg' %} alt="Ink and Wash painting" />
         </header>
         <div id="wrapper">
-
-
-
-
             <nav>
                 <ul>
                     <li>
@@ -177,7 +50,7 @@
                 <p>Saturday: 10 a.m. - 5 p.m.</p>
                 <p>Sunday: 12 p.m - 5 p.m.</p>
                 <figure>
-                    <img src="images/bamboo.jpg" alt="Bamboo on old grunge paper" width="150" height="150" />
+                    <img src={% static 'images/bamboo.jpg' %} alt="Bamboo on old grunge paper" width="150" height="150" />
                     <figcaption>
                         Bamboo
                         <br /> Wei Yong Sook
