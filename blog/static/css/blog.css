@@ -1,13 +1,11 @@
 .page-header {
     background-color: rgb(10, 102, 223);
     padding: 20px 20px 20px 40px;
-    /*Reduced by 20 px to accomadate shadow */
-    margin-bottom: 30px;
+    margin-bottom: 0;
     margin-top: 0;
     text-align: center;
     border: 1px solid #291616;
-    box-shadow: 15px 15px 5px 0 #eedddd;
-    border-radius: 25px;
+    border-radius: 0;
 
 }
 
@@ -91,6 +89,7 @@ footer {
     padding: 0;
     overflow: hidden;
     background-color: rgb(1, 75, 69);
+    margin-bottom: 30px;
 }
 
 .nav-bar li {
