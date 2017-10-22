@@ -12,3 +12,5 @@ def post_detail(request, pk):
     return render(request, 'blog/post_detail.html', {'post': post})
 def test(request):
     return render(request,'blog/test.html', {} )
+def diceroller(request):
+     return render(request,'blog/diceroller.html', {} )

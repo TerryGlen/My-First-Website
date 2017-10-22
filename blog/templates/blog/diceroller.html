@@ -1,0 +1,25 @@
+
+ {% extends 'blog/base.html' %} 
+
+ {% load staticfiles %} 
+ {% block content %} 
+ 
+ <script src="{% static 'js/dice.js' %}"></script>
+ 
+
+<button type="button" onclick="flip_coin()">Flip a coin!</button>
+
+<button type="button" onclick="roll_six()">Roll a Six Sided Die</button>
+
+<button type="button" onclick="roll_eight()">Roll an Eight Sided Die</button>
+
+<button type="button" onclick="roll_twelve()">Roll an Twelve Sided Die</button>
+
+<button type="button" onclick="roll_hundred()">Roll an 100 Sided Die</button>
+
+<br>
+<div class="result">
+<p id="demo">Try me if you Dare</p>
+</div>
+
+{% endblock %}
