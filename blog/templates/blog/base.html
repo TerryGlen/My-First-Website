@@ -15,9 +15,9 @@
         <div class="nav-bar">
                 <ul>
                         <li><a class="active" href="/">Home</a></li>
-                        <li><a {% if request.get_full_path == "/blog" %}{% endif %} href="/blog">Blogs</a></li>
-                        <li><a href="/diceroller">Dice Roller</a></li>
-                        <li><a href="about.asp">Page 3</a></li>
+                        <li><a {% if request.get_full_path == "/blog" %} class="active" {% endif %} href="/blog">Blogs</a></li>
+                        <li><a {% if request.get_full_path == "/diceroller" %} class="active" {% endif %}  href="/diceroller">Dice Roller</a></li>
+                        <li><a {% if request.get_full_path == "/page 3" %} class="active" {% endif %}  href="/diceroller"> Page 3</a></li>
                         <li style="float:right"><a href="/admin">Control Panel</a></li>
                 </ul>
         </div>
@@ -31,11 +31,11 @@
         </div>
         <footer>
             <p>Terry's Site Stuff
-                <br /> Web Development &bull; EMCC
+                <br /> Web Development
                 <br />
                 <a href="https://github.com/TerryGlen/My-First-Website">Github Code</a> |
                 <a href="#">About This Site</a> |
-                <a href="mailto:tg456@lions.eastms.edu">Contact Me</a>
+                <a href="mailto:saispas99@gmail.com">Contact Me</a>
             </p>
         </footer>
     </div>
