@@ -14,3 +14,5 @@ def test(request):
     return render(request,'blog/test.html', {} )
 def diceroller(request):
      return render(request,'blog/diceroller.html', {} )
+def index(request):
+    return render(request, 'blog/index.html' , {} )
