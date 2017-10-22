@@ -5,21 +5,21 @@ function roll_dice(num){
 
 function roll_six(){
     result = roll_dice(6);
-    document.getElementById("demo").innerHTML = result;
+    document.getElementById("rollme").innerHTML = result;
 }
 
 function roll_eight(){
     result = roll_dice(8);
-    document.getElementById("demo").innerHTML = result;
+    document.getElementById("rollme").innerHTML = result;
 }
 
 function roll_twelve(){
     result = roll_dice(12);
-    document.getElementById("demo").innerHTML = result;
+    document.getElementById("rollme").innerHTML = result;
 }
 function roll_hundred(){
     result = roll_dice(100);
-    document.getElementById("demo").innerHTML = result;
+    document.getElementById("rollme").innerHTML = result;
 }
 function flip_coin(){
     result = roll_dice(2);
@@ -29,6 +29,6 @@ function flip_coin(){
     }else{
         reply = "tails";
     }
-    document.getElementById("demo").innerHTML = reply;
+    document.getElementById("rollme").innerHTML = reply;
 }
 
