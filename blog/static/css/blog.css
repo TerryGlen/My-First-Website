@@ -84,6 +84,13 @@ h1, h2, h3, h4 {
     color: #000000;
     
 }
+.post ul{
+    text-align: left;
+    list-style-type: square;
+    list-style-position: inside;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+}
 .result{
     text-align: center;
     font-size: 500%;
