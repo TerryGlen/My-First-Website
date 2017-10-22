@@ -1,7 +1,8 @@
 {% load staticfiles %}
 <html>
     <head>
-        <title>Terry's Gaming Blog</title>
+    <div id="container">   
+        <title>Terry's Example Website</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
@@ -11,7 +12,15 @@
         <div class="page-header">
             <h1><a href="/">Terry's SuperCool Website</a></h1>
         </div>
-
+        <div class="nav-bar">
+                <ul>
+                        <li><a class="active" href="post_list">Home</a></li>
+                        <li><a href="news.asp">Blogs</a></li>
+                        <li><a href="contact.asp">Page 2</a></li>
+                        <li><a href="about.asp">Page 3</a></li>
+                        <li><a href="about.asp">Page 3</a></li>
+                </ul>
+        </div>
         <div class="content container">
             <div class="row">
                 <div class="col-md-8">
@@ -20,5 +29,15 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <p>Terry's Site Stuff
+                <br /> Web Development &bull; EMCC
+                <br />
+                <a href="https://github.com/TerryGlen/My-First-Website">Github Code</a> |
+                <a href="#">About This Site</a> |
+                <a href="mailto:tg456@lions.eastms.edu">Contact Me</a>
+            </p>
+        </footer>
+    </div>
     </body>
 </html>

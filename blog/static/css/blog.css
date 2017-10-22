@@ -1,7 +1,14 @@
 .page-header {
-    background-color: #ff9400;
-    margin-top: 0;
+    background-color: rgb(10, 102, 223);
     padding: 20px 20px 20px 40px;
+    /*Reduced by 20 px to accomadate shadow */
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align: center;
+    border: 1px solid #291616;
+    box-shadow: 15px 15px 5px 0 #eedddd;
+    border-radius: 25px;
+
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -20,15 +27,13 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+    text-align: right;
+    font-weight: bold;
 }
-
 .save {
     float: right;
 }
 
-.post-form textarea, .post-form input {
-    width: 100%;
-}
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
@@ -39,8 +44,71 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    border: 2px solid rgb(233, 217, 217);
+    border-radius: 5px;
 }
 
+.post p{
+    text-align: justify;
+    text-indent: 50px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.post h1{
+    text-align: center;
+}
 .post h1 a, .post h1 a:visited {
     color: #000000;
+    
+}
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: #013aad;
+    clear: both;
+    color: oldlace;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.footer p a{
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+#container {
+    width: 930px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: white;
+}
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(1, 75, 69);
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    background-color: #111;
+}
+
+.nav-bar .active{
+    background-color: yellowgreen ;
 }
