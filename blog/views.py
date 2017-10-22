@@ -16,3 +16,5 @@ def diceroller(request):
      return render(request,'blog/diceroller.html', {} )
 def index(request):
     return render(request, 'blog/index.html' , {} )
+def animation(request):
+    return render(request, 'blog/animation.html' , {} )

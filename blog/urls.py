@@ -8,4 +8,5 @@ urlpatterns = [
     url(r'^test$', views.test, name='test'),
     url(r'^diceroller$', views.diceroller, name='diceroller'),
     url(r'^blog$', views.post_list, name='post_list'),
+    url(r'^animation$', views.animation, name='animation'),
 ]

@@ -1,17 +1,29 @@
-
- {% extends 'blog/base.html' %} 
-  {% load staticfiles %} 
-  {% block content %} 
-  <div class="post">
+ {% extends 'blog/base.html' %} {% load staticfiles %} {% block content %}
+<div class="post">
     <h1>Welcome</h1>
-     <p>This is a place holder for eventual good text about how great this webpage is. </p>
+    <p>This is a place holder for eventual good text about how great this webpage is. </p>
+
+    <p>This website is created using three additional languages. Javascript, Python, and PHP. </p>
+
+    <p> On the Blog page you will find an example of using Django to create Python object class called a Post. This class contains
+        the values
+        <li>Author</li>
+        <li> Title</li>
+        <li> Text</li>
+        <li> Created Date</li>
+        <li> Pulished Date</li>
+    </p>
+    <p>Using the Control Panel above, I can create and directly edit these posts without having to edit the websites HtML every
+        time I want to put in a new entry. To log in and add your own Blog Entries Sign in as Guest and use our class password.</p>
+    <p> On the DiceRoller page I have created a simple Javascript file that contains multiple quick funtions that make use of
+        Javascripts Math.random() function in order to give the user simulated dice rolls every time the approiate button
+        is pressed. The Javascript file contains multiple functions that simply send the approiate maximum value to the base
+        function</p>
+
+     <p>All of the webpages use Django's Template system so that there is a base HTML that contains the header and footer and the content of the page is stored in a seperate
+         document makes up the body. 
+         </p>  
 </div>
 
 
-{% endblock %} 
-
-
-
-
-
-  
+{% endblock %}
