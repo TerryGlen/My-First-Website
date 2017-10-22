@@ -15,7 +15,7 @@
         <div class="nav-bar">
                 <ul>
                         <li><a class="active" href="/">Home</a></li>
-                        <li><a {% if request.get_full_path == "/blog" %}href="/blog">Blogs</a></li>
+                        <li><a {% if request.get_full_path == "/blog" %}{% endif %} href="/blog">Blogs</a></li>
                         <li><a href="/diceroller">Dice Roller</a></li>
                         <li><a href="about.asp">Page 3</a></li>
                         <li style="float:right"><a href="/admin">Control Panel</a></li>
