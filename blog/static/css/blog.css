@@ -66,8 +66,6 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
-    border: 2px solid rgb(233, 217, 217);
-    border-radius: 5px;
 }
 
 .post p{
@@ -104,8 +102,6 @@ footer {
     color: oldlace;
     font-weight: bold;
     text-align: center;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
 .footer p a{
     color: #ffffff;
